@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Protein  Variations in Cancer Mutations</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="p1.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Protein  Variations in Cancer Mutations</h1>
+  </header>
+
+  <main class="main-container">
+    <!-- Left Column: Tools Menu -->
+    <aside class="left-column">
+      <nav class="tools-menu">
+        <h2>Tools</h2>
+        <ul>
+         
+          <li><button id="complementMenuBtn">Complementary Tool</button></li>
+          <li><button id="uniprotMenuBtn">UniProt</button>
+          </li>
+           <li><button id="blastMenuBtn">BLAST</button></li>
+          <li><button id="keggMenuBtn">KEGG</button></li>
+          <li><button id="primerMenuBtn">Primer Designing Tool</button></li>
+          <li><button id="translateMenuBtn">Transcription & Translation Tool</button></li>
+          <li><button id="chemblMenuBtn">ChEMBL</button></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Center Column: Info + Search -->
+    <section class="center-column">
+      <div class="alz-info">
+        <h2>Protein  Variations in Cancer Mutations</h2>
+        <p>
+          Proteins are the functional building blocks of life, and their structures and functions are tightly regulated by genetic sequences. However, mutations in key genes can lead to significant protein variations, which are often implicated in cancer development and progression. These variations can arise from single nucleotide changes, insertions, deletions, or structural rearrangements that alter the amino acid sequence of a protein Identifying and understanding these protein variations is critical for cancer research, biomarker discovery, and targeted therapy development. Resources such as COSMIC, ClinVar, and UniProt provide extensive databases of cancer-related protein mutations, helping researchers analyze their structural and functional impact. Structural modeling and computational predictions further aid in assessing how these variations affect protein stability, interactions, and drug sensitivity.
+
+        </p>
+        <p>
+          This database provides critical information on  protein structural variations in cancer mutations, including key genes and proteins involved,post-translational modifications (PTMs), cellular localization of proteins, and 3D structures.
+        </p>
+        <div class="more-info-link">
+          <a href="https://www.uniprot.org/" target="_blank">
+            Click this link to know more about Protein
+          </a>
+        </div>
+      </div>
+
+      <div class="search-section">
+        <label for="geneSearch">Search protein_ID/mutation/structural_Impact/source_Database:</label>
+        <input type="text" id="geneSearch" placeholder="Enter search term" />
+        <button id="searchButton">Search</button>
+      </div>
+
+      <!-- Dynamic content area for tools output -->
+      <div id="dynamicContent" class="dynamic-content"></div>
+    </section>
+
+    <!-- Right Column: Images -->
+    <aside class="right-column">
+      <div class="image-card">
+        <img src="crc_3.jpeg" alt="Protein" />
+      </div>
+      <div class="image-card">
+        <img src="crc_1.jpeg" alt="protein Illustration" />
+      </div>
+      <div class="image-card">
+        <img src="crc_2.jpeg" alt=" Model " />
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Research & Resource Portal. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
